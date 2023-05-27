@@ -26,7 +26,7 @@ cifraDiv[1]=save2;
 
 for(var i=0;i<cifraDiv.length;i++){
   var zona = document.getElementById('zona');
-  zona.innerHTML = "su numero es encriptado " + cifraDiv;
+  zona.innerHTML = "su numero es encriptado " + cifraDiv.join('');
  }
 }else{
   var zona = document.getElementById('zona');
@@ -57,7 +57,7 @@ function desEncriptar(numero){
   
   for(var i=0;i<cifraDiv.length;i++){
     var zona = document.getElementById('zona');
-    zona.innerHTML = "su numero es desencriptado " + cifraDiv;
+    zona.innerHTML = "Su número es desencriptado " + cifraDiv.join('')
    }
    }else{
     var zona = document.getElementById('zona');
